@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using ProjetoConcessionaria.Data; // garante que o AppDbContext seja reconhecido
+using ProjetoConcessionaria.Data; 
 using ProjetoConcessionaria.Services;
  // para o TesteBanco
 
@@ -13,7 +13,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("ConcessionariaDB"),
-        new MySqlServerVersion(new Version(12, 0, 2)) // troque pela vers„o do seu MariaDB
+        new MySqlServerVersion(new Version(12, 0, 2)) // trocar pela vers√£o do seu Banco de dados
     )
 );
 
