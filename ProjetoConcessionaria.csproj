@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StaticWebAssetsEnabled>false</StaticWebAssetsEnabled>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Test\**" />
+    <Content Remove="Test\**" />
+    <EmbeddedResource Remove="Test\**" />
+    <None Remove="Test\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\Relatorios\Relatorios.cs" />
+    <Compile Remove="Views\Vendas\vendas.cs" />
+    <Compile Remove="Views\Clientes\veiculos.cs" />
+    <Compile Remove="Views\Veiculos.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\site.css.merge-left.r27" />
+    <Content Remove="wwwroot\css\site.css.merge-right.r26" />
+    <Content Remove="wwwroot\js\site.js.merge-left.r27" />
+    <Content Remove="wwwroot\js\site.js.merge-right.r26" />
+    <Content Remove="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove=".claudiaideconfig" />
+    <None Remove="Views\Veiculos\htmlpage.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.8">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.8">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+main {
+    flex: 1;
+    padding-bottom: 3rem;
+}
+
+footer {
+    background-color: #212529;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: all 0.5s ease-in-out;
+}
+
+.card:focus {
+    width: 250px;
+}
+
+.navbar-icons {
+    font-size: 28px;
+    margin-left: 20px;
+}

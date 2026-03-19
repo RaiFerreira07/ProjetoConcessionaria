@@ -1,0 +1,8 @@
+C:\Projeto_Estagio_2025\Rai\ProjetoConcessionaria\obj\Debug\net8.0\ProjetoConcessionaria.csproj.AssemblyReference.cache
+C:\Projeto_Estagio_2025\Rai\ProjetoConcessionaria\obj\Debug\net8.0\ProjetoConcessionaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeto_Estagio_2025\Rai\ProjetoConcessionaria\obj\Debug\net8.0\ProjetoConcessionaria.AssemblyInfoInputs.cache
+C:\Projeto_Estagio_2025\Rai\ProjetoConcessionaria\obj\Debug\net8.0\ProjetoConcessionaria.AssemblyInfo.cs
+C:\Projeto_Estagio_2025\Rai\ProjetoConcessionaria\obj\Debug\net8.0\ProjetoConcessionaria.csproj.CoreCompileInputs.cache
+C:\Projeto_Estagio_2025\Rai\ProjetoConcessionaria\obj\Debug\net8.0\ProjetoConcessionaria.MvcApplicationPartsAssemblyInfo.cache
+C:\Projeto_Estagio_2025\Rai\ProjetoConcessionaria\obj\Debug\net8.0\ProjetoConcessionaria.RazorAssemblyInfo.cache
+C:\Projeto_Estagio_2025\Rai\ProjetoConcessionaria\obj\Debug\net8.0\ProjetoConcessionaria.RazorAssemblyInfo.cs
